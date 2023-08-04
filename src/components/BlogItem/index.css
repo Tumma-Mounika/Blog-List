@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.blog-container {
+  list-style: none;
+  border-bottom: 1px solid #e7e5ea;
+  width: 100%;
+  font-family: 'Roboto';
+}
+.blog-list-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #12022f;
+}
+.publisheddate {
+  font-style: normal;
+  font-size: 16px;
+  color: #9aa5b1;
+  line-height: 26px;
+}
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9aa5b1;
+}
